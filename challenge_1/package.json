@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start-dev": "nodemon server.js",
     "compile": "./node_modules/.bin/webpack -d --watch"
   },
   "repository": {
@@ -19,9 +20,16 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
     "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.0",
+    "mongoose": "^5.0.12",
+    "path": "^0.12.7",
     "react": "^16.3.1",
+    "react-chartjs-2": "^2.7.0",
     "react-dom": "^16.3.1",
+    "request": "^2.85.0",
     "webpack": "^3.11.0"
   },
   "devDependencies": {
@@ -29,6 +37,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.3"
   }
 }
