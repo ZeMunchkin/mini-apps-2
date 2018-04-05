@@ -24,4 +24,18 @@ const insert = purchaseObj => (
   Purchases.create(purchaseObj)
 );
 
+const update = (id, purchaseObj) => (
+  Purchases.findById(id)
+    .then((purchase) => {
+      purchase.set(purchaseObj);
+      return purchase.save();
+    })
+);
+
+const find = id => (
+  Purchases.findById(id)
+);
+
 module.exports.insert = insert;
+module.exports.update = update;
+module.exports.find = find;
