@@ -8,7 +8,6 @@ const validFields = ['transId', 'fullName', 'email', 'password', 'address1', 'ad
 let allValid = true;
 
 router.post('/', (req, res) => {
-  console.log(req.body);
   for (let key in req.body) { // eslint-disable-line
     if (!validFields.includes(key)) {
       allValid = false;
@@ -34,7 +33,6 @@ router.post('/', (req, res) => {
 });
 
 router.put('/', (req, res) => {
-  console.log(req.body);
   if (!req.body.transId) {
     res.sendStatus(400);
   }

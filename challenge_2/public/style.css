@@ -1,0 +1,87 @@
+button {
+  height: 32px;
+  background-color: #DB8656;
+  border-radius: 3px;
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #D18052;
+}
+
+#checkout {
+  display: flex;
+  flex-direction: vertical;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: vertical;
+  justify-content: center;
+  margin: 5px;
+}
+
+h2 {
+  color: #D18052;
+  font-weight: 300;
+}
+
+input {
+  margin: 1px;
+}
+
+#fullName {
+  width: 200px;
+}
+
+#email {
+  width: 230px;
+}
+
+#password {
+  width: 207px;
+}
+
+#address1 {
+  width: 250px;
+}
+
+#address2 {
+  width: 250px;
+}
+
+#city {
+  width: 100px;
+}
+
+#state {
+  width: 50px;
+}
+
+#shipZip {
+  width: 76px;
+}
+
+#phone {
+  width: 150px;
+}
+
+#ccNum {
+  width: 207px;
+}
+
+#expiration {
+  width: 75px;
+}
+
+#cvv {
+  width: 25px;
+}
+
+#ccZip {
+  width: 75px;
+}

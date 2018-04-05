@@ -15,7 +15,7 @@ const Start = (props) => {
 
   return (
     <button onClick={beginCheckout}>
-      Checkout
+      Begin Checkout!
     </button>
   );
 };

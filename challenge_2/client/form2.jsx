@@ -33,10 +33,11 @@ const Form2 = (props) => {
         <br />
         Phone: <input type="text" id="phone" />
         <br />
-        <br />
-        <button type="button" onClick={nextForm}>
-          Next
-        </button>
+        <div className="buttonBox">
+          <button type="button" onClick={nextForm}>
+            Next
+          </button>
+        </div>
       </form>
     </div>
   );

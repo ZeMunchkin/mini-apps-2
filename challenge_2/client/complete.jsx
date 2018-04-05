@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Complete = () => (
-  <div>
+  <h2>
     Thank you for your purchase!
-  </div>
+  </h2>
 );
 
 module.exports = Complete;

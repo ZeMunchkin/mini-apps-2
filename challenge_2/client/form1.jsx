@@ -28,9 +28,11 @@ const Form1 = (props) => {
         <br />
         Password: <input type="text" id="password" />
         <br />
-        <button type="button" onClick={nextForm}>
-          Next
-        </button>
+        <div className="buttonBox">
+          <button type="button" onClick={nextForm}>
+            Next
+          </button>
+        </div>
       </form>
     </div>
   );

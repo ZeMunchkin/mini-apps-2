@@ -27,10 +27,11 @@ const Form3 = (props) => {
         <br />
         Expiration: <input type="text" id="expiration" /> CVV: <input type="text" id="cvv" /> Zip: <input type="text" id="ccZip" />
         <br />
-        <br />
-        <button type="button" onClick={nextForm}>
-          Next
-        </button>
+        <div className="buttonBox">
+          <button type="button" onClick={nextForm}>
+            Next
+          </button>
+        </div>
       </form>
     </div>
   );
