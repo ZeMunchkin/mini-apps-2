@@ -22,7 +22,6 @@ class App extends React.Component {
   }
 
   render() {
-    const ctx = document.getElementById('myChart');
     const chartData = {
       labels: this.state.data.map(datapoint => moment(datapoint.time_close).format('MMM D, YY')),
       datasets: [{
@@ -39,4 +38,4 @@ class App extends React.Component {
   }
 }
 
-render(<App />, document.getElementById('app'));
+render(<App />, document.getElementById('app')); //eslint-disable-line

@@ -1,8 +1,10 @@
 const express = require('express');
 const parse = require('body-parser');
 const router = require('./router');
+const fetch = require('./fetcher');
 
 const app = express();
+fetch();
 app.use(parse.json());
 
 app.use(express.static('public'));
