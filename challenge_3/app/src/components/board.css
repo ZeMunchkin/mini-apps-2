@@ -1,0 +1,11 @@
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#boardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
